@@ -1,0 +1,78 @@
+/* Reset some default browser styles */
+body{
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color:green;
+}
+
+header {
+    background-color: #007acc;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+}
+
+nav {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav li {
+    display: inline;
+    margin: 0 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #fff;
+}
+
+section {
+    padding: 20px;
+    background-color: #fff;
+    margin: 20px;
+    border-radius: 5px;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+}
+h2{
+    text-decoration: underline;
+    
+}
+
+span{
+    text-decoration:underline;
+    color:brown;
+}
+html{
+    scroll-behavior: smooth;
+}
+.content-container {
+    display: flex;
+    align-items: center; /* Vertically align the items */
+}
+
+.text {
+    flex: 1; /* Allow text to take remaining width */
+    margin-right: 20px; /* Add some spacing between text and image */
+}
+
+.image {
+    flex: 0; /* Prevent image from growing */
+}
+
